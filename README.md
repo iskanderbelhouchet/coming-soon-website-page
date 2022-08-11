@@ -1,2 +1,1 @@
-# comz
-free html coming soon template with 4 variant background
+Freelance Project for rental car website (Coming soon page)
