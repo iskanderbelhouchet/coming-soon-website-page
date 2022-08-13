@@ -2,9 +2,6 @@ body{
 	font-family: 'Montserrat',arial, sans-serif;
 	text-align: center;
 }
-body#color-bg{
-	background-color: #CCD1D9;
-}
 
 a{
 	outline: none;
@@ -18,10 +15,13 @@ p{
 	padding-right: 15px ;
 	padding-left: 15px;
 }
+
+
 .top-text{
 	font-size: 1.5em;
 	margin-top: 110px;
-	font-family: Impact;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
 }
 .message{
 	font-size: 26px;
@@ -86,24 +86,7 @@ p{
     content: "\f003";
 		color: #f45050;
 }
-/* Form submit button */
-.form-wrapper button {
-	overflow: visible;
-	position: relative;
-	float: right;
-	padding: 0;
-	cursor: pointer;
-	height: 40px;
-	width: 110px;
-	border: none;
-	background-color: #f45050;
-	color: #fff;
-	-webkit-appearance: none;
-	outline: none;
-}
-.form-wrapper button:hover{
-	background-color: #F66C6C;
-}
+
 
 
 
@@ -162,40 +145,18 @@ p{
 @media (min-width: 320px) and (max-width: 480px) {
 	.countdown .element{
 		display: block;
-		float: left;
-		width: 50%;
-	}
-	.form-wrapper {
-		width: 260px;
-	}
-	.form-wrapper input {
-		width: 110px;
+		width: 100px;
+		height: 100px;
 	}
 }
 
 @media (min-width: 480px) and (max-width: 600px) {
 	.countdown .element{
 		display: block;
-		float: left;
-		width: 50%;
-	}
-	.form-wrapper input {
-    width: 250px;
-	}
-	.form-wrapper {
-    width: 400px;
+		width: 100px;
+		height: 100px;
 	}
 }
-@media (min-width: 600px) and (max-width: 800px) {
-	.form-wrapper input {
-    width: 450px;
-	}
-	.form-wrapper {
-    width: 600px;
-	}
-}
-
-
 
 
 
@@ -222,7 +183,7 @@ video {
 	background-size: cover;
 	transition: 1s opacity;
 }
-@media screen and (max-device-width: 800px) {
+@media screen and (max-device-width: 100px) {
 html { background: url('../video/back.png') #000 no-repeat center center fixed; }
 #bgvid { display: none; }
 }
